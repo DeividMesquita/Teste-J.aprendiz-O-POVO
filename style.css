@@ -22,7 +22,7 @@ header nav {
 }
 
 .logo img {
-    height: 50px;
+    height: 40px;
 }
 
 .barra {
@@ -45,6 +45,16 @@ header nav {
 
 .barra li a:hover {
     color: #F0A500;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+.mobile-menu-icon {
+    display: none;
+    background-color: transparent;
 }
 
 /* começo do conteudo principal da pagina*/

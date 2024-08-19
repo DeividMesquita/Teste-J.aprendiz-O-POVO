@@ -1,0 +1,93 @@
+@media screen and (max-width: 768px) {
+    header nav {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .barra {
+        display: none;
+    }
+
+    .mobile-menu-icon {
+        /*me deu muito trabalho esse icone, ave maria*/
+        display: block;
+        align-self: flex-end;
+    }
+
+    .barra.active {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .capa {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .capa img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .infoEsq,
+    .infoDir {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .elenco,
+    .resenhas {
+        padding: 10px;
+    }
+
+    .titulo-elenco h2 {
+        font-size: 20px;
+    }
+
+    .titulo-elenco .ver-mais {
+        font-size: 18px;
+        padding: 5px 8px;
+    }
+
+    .titulo-resenhas h3 {
+        font-size: 20px;
+    }
+
+    .titulo-resenhas .ver-mais {
+        font-size: 18px;
+        padding: 5px 8px;
+    }
+
+    .resenha-container {
+        flex-direction: column;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .listas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .lista-rodape {
+        margin-bottom: 20px;
+        width: 45%;
+    }
+
+    .rodape .logo img {
+        margin-bottom: 20px;
+    }
+}
